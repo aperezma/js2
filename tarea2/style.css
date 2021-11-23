@@ -1,0 +1,11 @@
+.numerocaracteres{
+    background-color: black;
+    color: rgb(172, 172, 172);
+    width: 10em;
+    padding-top: 0%;
+}
+textarea{
+    padding-bottom: 0%;
+    width: 20em;
+    height: 20em;
+}

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body id="body">
+    <script type="text/javascript">
+            function cambiafondo(X) {
+            console.log(X.value);
+            var body = document.getElementById("body")
+            body.style.backgroundColor = X.value
+        }
+    </script>
+    <section name="fondo" id="fondo" onclick="cambiafondo(this)">
+        <button value="red" class="button-red" id="btn" onclick="cambiafondo(this)">
+            <p>Rojo</p>
+        </button>
+        <button value="blue" class="button-blue" id= "btn" onclick="cambiafondo(this)">
+            <p>Azul</p>
+        </button>
+        <button value="green" class="button-green" id= "btn" onclick="cambiafondo(this)">
+            <p>Verde</p>
+        </button>
+        <button value="black" class="button-black" id= "btn" onclick="cambiafondo(this)">
+            <p>Negro</p>
+        </button>
+    </section>
+
+</body>
+</html>
